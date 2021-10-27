@@ -117,7 +117,7 @@ i::before {
   /* border: 1px solid rebeccapurple; */
   width: 100%;
   height: 510px;
-  background-image: url("/microsoft/images/new-big-cover.webp");
+  background-image: url("../images/new-big-cover.webp");
   background-repeat: round;
   /* overflow: hidden; */
   display: flex;
@@ -261,7 +261,7 @@ span#s2 {
 
 #cover2 {
   display: flex;
-  background-image: url("/microsoft/images/Cover-Bottom.webp");
+  background-image: url("../images/Cover-Bottom.webp");
   width: 100%;
   height: 500px;
   background-size: 100%;
@@ -338,7 +338,7 @@ div#text-two {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 290px;
+  max-width: 290px;
 }
 .banner-button {
   width: 100%;
@@ -375,7 +375,7 @@ div#text-two {
 }
 .parent-cover-button {
   width: 100%;
-  background-image: url(/microsoft/images/buttom-cover.webp);
+  background-image: url("../images/buttom-cover.webp");
   background-size: 100%;
   background-repeat: round;
   display: flex;
