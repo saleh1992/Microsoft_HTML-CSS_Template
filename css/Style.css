@@ -8,6 +8,13 @@ body {
   margin: 0;
   padding: 0;
 }
+a .fa-angle-right {
+  font-size: 19px;
+  position: relative;
+  left: 2px;
+  top: 2px;
+  display: inline-block;
+}
 .page {
   width: 90%;
   margin-left: 5%;
@@ -169,6 +176,7 @@ i::before {
   align-items: center;
   justify-content: center;
   padding: 11px 11px;
+  height: 47px;
 }
 span#s2 {
   margin-left: 3px;
@@ -335,10 +343,14 @@ div#text-two {
   justify-content: space-between;
 }
 #small-conatiner {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  max-width: 290px;
+  max-width: 300px;
+}
+#small-conatiner a:nth-child(2) {
+  margin-left: 21px;
+}
+#small-conatiner a:nth-child(1) {
+  width: 97px;
+  display: inline-block;
 }
 .banner-button {
   width: 100%;
